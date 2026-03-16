@@ -1,0 +1,23 @@
+{
+    "name": "pulumi-flyio",
+    "version": "0.0.46",
+    "keywords": [
+        "pulumi",
+        "fly",
+        "flyio",
+        "category/cloud",
+        "kind/native"
+    ],
+    "repository": "https://github.com/plazafyi/pulumi-flyio",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "@pulumi/pulumi": "^3.136.0"
+    },
+    "pulumi": {
+        "resource": true,
+        "name": "flyio",
+        "server": "github://api.github.com/lukeshay"
+    },
+    "main": "sdk/nodejs/bin/index.js",
+    "types": "sdk/nodejs/bin/index.d.ts"
+}
