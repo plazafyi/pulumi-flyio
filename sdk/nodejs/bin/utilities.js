@@ -61,7 +61,7 @@ function getVersion() {
 exports.getVersion = getVersion;
 /** @internal */
 function resourceOptsDefaults() {
-    return { version: getVersion(), pluginDownloadURL: "github://api.github.com/lukeshay" };
+    return { pluginDownloadURL: "github://api.github.com/lukeshay" };
 }
 exports.resourceOptsDefaults = resourceOptsDefaults;
 /** @internal */
