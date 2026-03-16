@@ -1,6 +1,6 @@
 {
     "name": "pulumi-flyio",
-    "version": "${VERSION}",
+    "version": "0.0.46",
     "keywords": [
         "pulumi",
         "fly",
@@ -14,7 +14,8 @@
         "build": "tsc"
     },
     "dependencies": {
-        "@pulumi/pulumi": "^3.136.0"
+        "@pulumi/pulumi": "^3.136.0",
+        "pulumi-flyio": "file:"
     },
     "devDependencies": {
         "@types/node": "^14",
@@ -24,5 +25,7 @@
         "resource": true,
         "name": "flyio",
         "server": "github://api.github.com/lukeshay"
-    }
+    },
+    "main": "bin/index.js",
+    "types": "bin/index.d.ts"
 }
